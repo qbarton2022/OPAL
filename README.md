@@ -9,6 +9,6 @@ To compile everything execute
  - ocamlc -c lexer.ml
  - ocamlc -c parser.ml
  - ocamlc -c calc.ml
- - ocamlc -o calc.exe lexer.cmo parser.cmo calc.cmo
+ - ocamlc -o calc.exe lexer.cmo parser.cmo unix.cma calc.cmo
  
 Read more at [Ocaml Manual](https://v2.ocaml.org/manual/lexyacc.html)
